@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heyday Accounting | Empowering Financial Success</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">Heyday Accounting</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="insights.html">Insights</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="cta">Contact Us</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Empowering Your Financial Success</h1>
+            <p>Heyday Accounting offers expert tax planning, bookkeeping, and financial consulting services tailored to your needs.</p>
+            <a href="contact.html" class="btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Our Expertise</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Tax Planning</h3>
+                    <p>Navigate complex tax regulations with our seasoned experts.</p>
+                    <a href="tax-planning.html" class="btn-secondary">Learn More</a>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-book"></i>
+                    <h3>Bookkeeping</h3>
+                    <p>Maintain accurate financial records effortlessly.</p>
+                    <a href="bookkeeping.html" class="btn-secondary">Learn More</a>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Financial Consulting</h3>
+                    <p>Strategize for growth with personalized financial advice.</p>
+                    <a href="financial-consulting.html" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Elevate Your Business?</h2>
+            <p>Contact Heyday Accounting today and let's achieve financial excellence together.</p>
+            <a href="contact.html" class="btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-about">
+                <h3>Heyday Accounting</h3>
+                <p>Your trusted partner in achieving financial success.</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                    <!-- Add more social icons as needed -->
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="insights.html">Insights</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone-alt"></i> +91-1234-567890</p>
+                <p><i class="fas fa-envelope"></i> info@heydayaccounting.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Financial Street, Mumbai, India</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Heyday Accounting. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for responsive menu -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
